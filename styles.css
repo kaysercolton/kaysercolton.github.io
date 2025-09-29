@@ -74,6 +74,20 @@ img {
   color: white;
 }
 
+.media-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.media-grid img {
+  width: 15rem;
+  height: auto;
+  object-fit: cover;
+}
+
 @media (max-width: 36rem) {
   .container {
     width: 95%;
