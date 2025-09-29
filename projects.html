@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav container" aria-label="Primary">
+        <div class="brand">My Personal Site</div>
+        <div class="nav-links">
+          <a href="/index.html">Home</a>
+          <a href="/projects.html" aria-current="page">Projects</a>
+          <a href="/resume.html">Resume</a>
+          <a href="/fun.html">Fun Stuff</a>
+        </div>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section class="card">
+        <h1>Projects</h1>
+        <p class="small">
+          Here are a few projects from classes and internships.
+        </p>
+      </section>
+
+      <section class="projects-grid">
+        <article class="card project">
+          <figure>
+            <img src="/proj1.png" width="640" height="360" />
+          </figure>
+          <div>
+            <h2>Project One: Nebula</h2>
+            <p>
+              Purpose: Explore and visualize sound using math equations. This
+              project uses the computer's microphone to capture sound, and
+              applies the sound data to generate dynamic, colorful visual
+              patterns in real-time using math equations. It is made up of two
+              reactive nebulas that moved based upon the bass and treble.
+            </p>
+          </div>
+        </article>
+
+        <article class="card project">
+          <figure>
+            <img src="/proj2.png" />
+          </figure>
+          <div>
+            <h2>Project Two: Gridiron Guru</h2>
+            <p>
+              Purpose:Predict NFL game outcomes using machine learning techniques.
+               I built a model in Python leveraging Pandas, NumPy, and scikit-learn, 
+               applying logistic regression with cross-validation to ensure reliable 
+               performance. To optimize results, I developed and trained a scikit-learn
+               pipeline that incorporated targeted feature extraction and iterative tuning,
+               ultimately achieving a 70% prediction accuracy on recent seasons.
+            </p>
+          </div>
+        </article>
+
+          </figure>
+          <div>
+            <h2>Project Three: Hash Guard</h2>
+            <p>
+              Purpose:I deployed a secure authentication system that utilized salted SHA-512 password 
+              hashing to ensure strong protection of user credentials, integrating robust 
+              file I/O operations and comprehensive exception handling to maintain system 
+              reliability. As this is a back end project, there is no visual component.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
